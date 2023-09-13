@@ -1,0 +1,43 @@
+#sidebar-wrapper {
+    height: 100vh;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#sidebar-wrapper .list-group-item {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #fdfdfd !important;
+    color: #000 !important;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+#menu-toggle {
+    cursor: pointer;
+}
+
+.list-group-item {
+    border: none;
+    padding: 20px 30px;
+    transition: .5s ease;
+}
+
+#navbar{
+    width: 100%;
+}
+
+#logout:hover{
+    color: red;
+}
